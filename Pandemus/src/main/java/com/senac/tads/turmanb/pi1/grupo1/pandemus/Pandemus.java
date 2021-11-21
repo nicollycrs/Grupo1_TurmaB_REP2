@@ -91,7 +91,7 @@ public class Pandemus {
          + " acontecendo mas não tomar nenhuma atitude relevante sobre.\n", 10);
         
         escreverTexto("1 - Ir em busca de respostas.\n" 
-         + "2  - Entender o que está acontecendo e não tomar nenhuma atitude sobre.\n", 5);
+         + "2 - Entender o que está acontecendo e não tomar nenhuma atitude sobre.\n", 5);
         
         escolha = input.nextInt();
         
@@ -106,7 +106,7 @@ public class Pandemus {
         }
         
         if (escolha == 1) {
-            escreverTexto(nome + " parte em sua jornada\n", 10);
+            escreverTexto(nome + " parte em sua jornada.\n", 10);
         } else {
             escreverTexto(nome + " recebe uma ligação de seu superior designando-o para busca dos fragmentos, "
                     + "\nentendendo que não são mais apenas boatos e sim informações verídicas sobre a possível chance de cura.\n", 10);
@@ -131,8 +131,8 @@ public class Pandemus {
         if (escolha == 1) {
             escreverTexto(nome + " se depara com um acampamento abandonado e reconhece itens de um antigo companheiro de trabalho.\n"
                     + "\nNesses itens há um caderno no qual chamou a atenção, na capa havia a seguinte anotação\n"
-                    + "\n“Nunca esqueça a ordem de precedência de um equação!!!”,\n"
-                    + "\nsem entender o por que dessa anotação " + nome + " apenas o guarda em sua mochila e segue sua viagem.\n", 40);
+                    + "\n“Nunca esqueça a ordem de precedência de um equação!!!”.\n"
+                    + "\nSem entender o por que dessa anotação " + nome + " apenas o guarda em sua mochila e segue sua viagem.\n", 40);
         }
         
         //Laboratório 1 - Guilherme Henrique
@@ -371,7 +371,7 @@ public class Pandemus {
                         + "A equipe de cientistas se anima com a possibilidade de desenvolver a cura para a humanidade.\n"
                         + nome + ", depois de passar por tantos desafios complexos, se emociona.\n"
                                 + "Sua jornada valeu a pena.\n"
-                                + "Enfim conseguiram, mas agora eles precisam correr contra o tempo para que todos os habitantes sejam curados.", 25);
+                                + "Enfim conseguiram, mas agora eles precisam correr contra o tempo para que todos os habitantes sejam curados.\n ", 25);
                 
                 // Final - Nicolly
                 
@@ -440,9 +440,9 @@ public class Pandemus {
             
             escreverTexto("Com essa descoberta revolucionária, cientistas do mundo todo correm para formular a cura.\n" +
                 "Dentro de 3 meses toda a população está curada e completamente imune ao vírus.\n" +
-                "Após um ano, a humanidade se vê no estado anterior à pandemia." + nome + "está sentado/a\n" +
+                "Após um ano, a humanidade se vê no estado anterior à pandemia. " + nome + " está sentado/a\n" +
                 "na varanda de casa, observando a rua: há crianças brincando, vizinhos conversando e\n" +
-                "festejando, bares e restaurantes abertos… ‘Nome’ respira profundamente, feliz e aliviado/a.\n" +
+                "festejando, bares e restaurantes abertos… " + nome + " respira profundamente, feliz e aliviado/a.\n" +
                 "Tudo era como deveria ser.", 50);
             escreverTexto("...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n", 80);
             escreverTexto("Acorde, " + nome, 20);
