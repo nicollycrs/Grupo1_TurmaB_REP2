@@ -395,13 +395,6 @@ public class Pandemus {
             escreverTexto(nome + " conseguiu " + fragmento + " elementos. Espera-se que os resultados sejam excelentes.\n"
                     + "Para isso, o/a cientista deve organizar sua pesquisa. A ordem das palavras (Adiuvat, Fortuna, Fortis) é: \n", 25);
             
-            /*System.out.println("Baseando-se nos fragmentos encontrados, quais as palavras-chave da pesquisa: ");
-            System.out.println("1)CARPE DIEM\n2)VENI, VIDI, VICI\n3)FORTIS FORTUNA ADIUVAT");
-            
-            resposta = input.nextInt();
-            
-            validacao3(resposta);*/
-            
             String[] ordemCorreta = new String [3];
             ordemCorreta[0] = "fortis";
             ordemCorreta[1] = "fortuna";
