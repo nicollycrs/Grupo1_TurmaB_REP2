@@ -1,4 +1,4 @@
-# Grupo1_TurmaB_REP2
+# Jogo Pandemus - Projeto Integrador 1
 
 # Projeto Integrador I
 Desenvolvimento do jogo Pandemus pelo Grupo 1 da turma 2021-2 de Análise e Desenvolvimento de Sistemas do Centro Universitário SENAC - São Paulo. 1o semestre.
